@@ -27,5 +27,10 @@ public class Main {
             System.out.println("you got "+topScore);
         }
 
+        String makeOfCar = "Kia";
+        boolean isDomestic = makeOfCar == "kia"? false : true ;
+        if(isDomestic){
+            System.out.println("car ");
+        }
     }
 }
